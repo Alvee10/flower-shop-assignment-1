@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #E55473;
 }
 
@@ -43,13 +43,13 @@ body {
 
 }
 
-.btn, .btn-hot {
+.btn,
+.btn-hot {
     font-size: 20px;
     padding: 20px 43px;
     background-color: #E55473;
     color: white;
     font-weight: 700;
-    /* display: inline-flex; */
     border-radius: 8px;
     border: 0;
 }
@@ -76,6 +76,7 @@ body {
 
 .flower-container {
     justify-content: space-evenly;
+    display: flex;
 }
 
 .title2 {
@@ -103,20 +104,21 @@ body {
     padding: 300px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    
+
 }
 
-.hot-title{
+.hot-title {
     font-size: 40px;
     font-weight: 800;
 }
 
-.main-photo{
-display: flex;
-    
+.main-photo {
+    display: flex;
+
 
 }
-.main-img{
+
+.main-img {
     width: 318px;
     display: flex;
 
@@ -127,23 +129,74 @@ display: flex;
 
 /* ins section styles */
 
-.ins{
+.ins {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-top: 150px;
+    width: 1920px;
+    height: 600px;
+    justify-content: space-evenly;
 }
 
-.ins-description{
+.ins-description {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ins-flower {
+    padding: 350px;
+    display: flex;
+    width: 342px;
+    height: 396px;
+
+
+}
+
+/* ashol-img styles */
+
+.ashol-img {
+    display: flex;
+    border-radius: 8px;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
 }
 
 
 
+/* footer related styles */
+
+.footer-main {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background-color: #111010;
+}
+
+.footer-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+ 
+}
