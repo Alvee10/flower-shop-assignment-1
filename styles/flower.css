@@ -3,8 +3,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-primary{
+    color: #E55473;
+}
 
-/* banner related styles */
+
+/* banner related styles start */
 
 .banner-container {
     height: 850px;
@@ -39,7 +43,7 @@ body {
 
 }
 
-.btn{
+.btn, .btn-hot {
     font-size: 20px;
     padding: 20px 43px;
     background-color: #E55473;
@@ -49,3 +53,97 @@ body {
     border-radius: 8px;
     border: 0;
 }
+
+/* banner related styles end */
+
+/* section related styles start  */
+
+.flower-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.flower-info {
+    background-color: #FFF;
+    margin-left: 480px;
+    padding: 5px;
+    color: #272727;
+
+}
+
+.flower-container {
+    justify-content: space-evenly;
+}
+
+.title2 {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0
+}
+
+.flower-photo {
+    text-align: center;
+}
+
+.flower-img {
+    width: 310px;
+}
+
+
+
+/* main section styles */
+
+/* hot section styles */
+.hot {
+
+    padding: 300px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+}
+
+.hot-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main-photo{
+display: flex;
+    
+
+}
+.main-img{
+    width: 318px;
+    display: flex;
+
+
+}
+
+
+
+/* ins section styles */
+
+.ins{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.ins-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+
