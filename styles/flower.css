@@ -104,7 +104,7 @@ body {
     padding: 300px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-
+display: flex;
 }
 
 .hot-title {
@@ -121,7 +121,7 @@ body {
 .main-img {
     width: 318px;
     display: flex;
-
+padding-left: 186px;
 
 }
 
@@ -152,8 +152,11 @@ body {
     display: flex;
     width: 342px;
     height: 396px;
+    padding-bottom: 300px;
+}
 
-
+.ins1{
+    padding-bottom: 100px;
 }
 
 /* ashol-img styles */
